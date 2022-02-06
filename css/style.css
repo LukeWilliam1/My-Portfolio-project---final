@@ -1,0 +1,326 @@
+@font-face {
+    font-family: "headfont";
+    src: url(../font/Prata/Prata-Regular.ttf);
+}
+@font-face{
+    font-family: "parafont";
+    src: url(/font/Inter/static/Inter-ExtraLight.ttf)
+}
+* {
+    padding:0;  
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(33, 37, 41, 1)!important;
+    color: white!important;
+}
+.main-container {
+    margin: 0 10%;
+}
+.title {
+    font-family: "headfont";
+    color: rgb(218, 218, 218);
+    font-size: 2.5rem;
+}
+.para  {
+    font-family: "parafont";
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    font-weight: 100;
+}
+body {
+    background-color: black;
+}
+
+.section1 {
+    width: 60%;
+    padding: 80px 0;
+    line-height: 1.5rem;
+}
+.section1 .para {
+    width: 90%;
+}
+
+.section2 .brands{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 1.5rem;
+}
+.section2 .brands img {
+    width: 100%;
+    height: 25px;
+}
+
+
+/* section-3 with images */
+.section3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.section3 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.img2-sec {
+    margin-left: 50px;
+}
+.section3 h1 {
+    font-size: 2.5rem;
+    margin: 30px 0;
+}
+.section3 a {
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+}
+.section3 .para {
+    width: 95%;
+}
+
+/* section-4 */
+.section4 {
+    background-color: black;
+    width: 100%;
+}
+.section4-margin {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+    padding: 70px 0;
+
+}
+
+.section4-margin .header {
+    width: 50%;
+}
+.section4 h1 {
+    font-size: 2rem;
+}
+.section4 .para {
+    width: 90%;
+}
+.sub-para {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.finalsection {
+    width: 50%;
+    padding: 70px 0;
+}
+.finalsection h1 {
+    font-size: 2rem;
+}
+.finalsection .para {
+    width: 80%;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+}
+footer li{
+    display: inline-block;
+    text-decoration: none;
+}
+footer .title {
+    font-size: medium;
+}
+footer img {
+    width: 80%;
+}
+
+@media (max-width: 992px){
+    .para {
+        font-size: 0.9rem;
+    }
+    .main-container {
+        margin: 5%;
+    }
+    .section1 {
+        padding: 40px 0;
+        width: 100%;
+    }
+    .section2 .brands {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        line-height: 50px;
+        margin: auto;
+    }
+    .img2-sec {
+        margin-left: 0;
+    }
+    .section3 {
+        display: block;
+        padding: 40px 0;
+    }
+    .section3 img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+    .section3 .para {
+        width: 100%;
+    }
+    .section3 .img1-sec {
+        margin-bottom: 50px;
+    }
+    .section4 .para {
+        width: 100%;
+    }
+     .section4-margin
+    {
+        display: block;
+        margin: 5%;
+    }
+    .section4 .header{
+        width: 100%;
+    }
+    .section4-margin
+    {
+        display: block;
+        margin: 5%;
+    }
+    .sub-para {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .finalsection {
+        width: 100%;
+    }
+    footer {
+        padding: 10px 5%;
+    }
+}
+@media (max-width: 768px) {
+    .main-container {
+        margin: 5%;
+    }
+    .section1 {
+        padding: 40px 0;
+        width: 100%;
+    }
+    .section2 .brands {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        line-height: 50px;
+        margin: auto;
+        width: 80%;
+    }
+    .img2-sec {
+        margin-left: 0;
+    }
+    .section3 {
+        display: block;
+        padding: 40px 0;
+    }
+    .section3 img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .section3 .para {
+        width: 100%;
+    }
+    .section3 .img1-sec {
+        margin-bottom: 50px;
+    }
+    .section4 .para {
+        width: 100%;
+    }
+     .section4-margin
+    {
+        display: block;
+        margin: 5%;
+    }
+    .section4 .header{
+        width: 100%;
+    }
+    .section4-margin
+    {
+        display: block;
+        margin: 5%;
+    }
+    .sub-para {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .finalsection {
+        width: 100%;
+    }
+    footer {
+        padding: 10px 5%;
+    }
+}
+@media (max-width: 576px){
+    .main-container {
+        margin: 5%;
+    }
+    .section1 {
+        padding: 25px 0;
+        width: 100%;
+    }
+    .section2 .brands {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        line-height: 50px;
+        margin: auto;
+        width: 50%;
+    }
+    .img2-sec {
+        margin-left: 0;
+    }
+    .section3 {
+        display: block;
+        padding: 40px 0;
+    }
+    .section3 img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .section3 .para {
+        width: 100%;
+    }
+    .section3 .img1-sec {
+        margin-bottom: 50px;
+    }
+    .section4 .para {
+        width: 100%;
+    }
+     .section4-margin
+    {
+        display: block;
+        margin: 5%;
+    }
+    .section4 .header{
+        width: 100%;
+    }
+    .section4-margin
+    {
+        display: block;
+        margin: 5%;
+    }
+    .sub-para {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .finalsection {
+        width: 100%;
+    }
+    footer {
+        padding: 10px 5%;
+    }
+}
